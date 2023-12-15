@@ -1,0 +1,23 @@
+<svg width="268" height="64" viewBox="0 0 268 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="mix-blend-mode:soft-light">
+<rect y="26.3257" width="267.372" height="37.2458" fill="url(#pattern0)"/>
+</g>
+<path d="M7.21619 0H260.828C261.285 0 261.722 0.1812 262.045 0.503734C262.367 0.826267 262.548 1.26372 262.548 1.71985V10.8151C262.548 11.2713 262.367 11.7087 262.045 12.0313C261.722 12.3538 261.285 12.535 260.828 12.535H7.21563C6.75965 12.535 6.32234 12.3539 5.99991 12.0314C5.67748 11.709 5.49634 11.2717 5.49634 10.8157V1.71985C5.49634 1.26372 5.67754 0.826267 6.00007 0.503734C6.3226 0.1812 6.76005 0 7.21619 0Z" fill="url(#paint0_linear_1_2868)"/>
+<path d="M134.249 12.5336H133.8H5.63428L36.6891 33.3236H133.8H134.249H231.354L262.409 12.5336H134.249Z" fill="url(#paint1_linear_1_2868)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_2868" transform="scale(0.00497512 0.0357143)"/>
+</pattern>
+<linearGradient id="paint0_linear_1_2868" x1="134.022" y1="12.535" x2="134.022" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CACACA"/>
+<stop offset="0.9098" stop-color="#E5E5E5"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_2868" x1="134.022" y1="33.3231" x2="134.022" y2="12.5352" gradientUnits="userSpaceOnUse">
+<stop stop-color="#666666"/>
+<stop offset="0.96057" stop-color="#8E8E8E"/>
+<stop offset="1" stop-color="#CBCBCB"/>
+</linearGradient>
+<image id="image0_1_2868" width="201" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMkAAAAcCAYAAADLNZuZAAAACXBIWXMAAC4jAAAuIwF4pT92AAABEElEQVR4Xu3ZyxbCIAxF0dD//2ccuHz1AYEkldKzhy6lDO7RgSnnLFFSSnGHAyKSc06191gttTcAIzvjizgskjMuD4jEby0kkuhLA2uRm3OPJPKyQEnU9lwjibokoBWxQbdIIi4H9PDeoksk3pcCrDw3aY7E8zKAJ69tmiLxugQQxWOjpkiAK7CG0h2J9cHAmSx77YrE8kDgX3p32xxJ74OAEfTstymSngcAo2ndsTqS1oOBkbXsWRVJy4HAVWh3XY1EexBwRZp9FyPRHADMrvpLAsyu9mNwGEntg8BMSnvfjYRAcEdHu99EQiC4s739/0RCIMC2g3ckBAJ8fPewrF8A8PTqIokIgQAF/E8CVDwA5k02jz3MPb4AAAAASUVORK5CYII="/>
+</defs>
+</svg>
