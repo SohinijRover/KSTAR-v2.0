@@ -20,11 +20,11 @@ function Hero() {
       <img
         src="/assets/Home/hero_transition.svg"
         alt="transition object"
-        className="w-full absolute -top-60"
+        className="w-full opacity-80 absolute -top-60"
       />
 
       {/* CHALLENGES */}
-      <div className="w-full flex flex-col gap-10 mt-20">
+      <div className="w-full flex flex-col gap-20 mt-20">
         {/* TITLE */}
         <div className="flex items-center justify-center">
           <img
@@ -51,7 +51,7 @@ function Hero() {
       {/* FAQ */}
       <div className="w-full flex justify-between items-center py-10 pl-16">
         {/* MAIN */}
-        <div className="flex flex-col gap-20 w-8/12">
+        <div className="flex flex-col gap-20 w-10/12">
           <h1 className="text-white font-bold text-6xl">FAQ</h1>
           <FAQ />
         </div>

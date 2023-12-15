@@ -46,7 +46,22 @@ function Header() {
   }, [timeLeft]);
 
   return (
-    <div className="bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] h-screen w-full flex flex-col fixed top-0" style={{zIndex: "-1"}}>
+    <div
+      className="bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] h-screen w-full flex flex-col fixed top-0"
+      style={{ zIndex: "-1" }}
+    >
+      <img
+        src="/assets/Frame.png"
+        alt="bg paricles"
+        className="absolute opacity-60"
+        style={{ zIndex: "-1" }}
+      />
+      <img
+        src="/assets/Frame.png"
+        alt="bg paricles"
+        className="absolute right-0 opacity-60"
+        style={{ zIndex: "-1" }}
+      />
       <header className="w-full flex items-center justify-between px-10 py-5">
         <div className="flex gap-10">
           <a href="#">
@@ -69,13 +84,23 @@ function Header() {
         </div>
       </header>
 
-      {/* KSTAR MAIN LOGO 3RD EDITION */}
-      <div className="w-full flex justify-center">
-        <img
-          src="/assets/Home/logo-main.png"
-          alt="kstar main"
-          className="w-3/12"
-        />
+      <div className="flex py-5 px-28">
+        {/* KSTAR MAIN LOGO 3RD EDITION */}
+        <div className="flex items-center justify-start">
+          <img
+            src="/assets/Home/logo-main.png"
+            alt="kstar main"
+            className="w-10/12"
+          />
+        </div>
+        {/* PRIZE POOL STAMP */}
+        <div className="w-1/2 flex items-center justify-start">
+          <img
+            src="/assets/Home/prize_pool.png"
+            alt="prize pool stamp"
+            className="w-8/12"
+          />
+        </div>
       </div>
 
       {/* DATE */}
@@ -85,80 +110,59 @@ function Header() {
       </div>
 
       {/* TIMER */}
-      <p className="font-bold text-white relative flex items-center justify-center mt-5 gap-10 text-3xl">
-        <span className="relative w-20 h-20 flex flex-col justify-center items-center">
+      <p className="flex items-center justify-center gap-20 mt-10 text-white">
+        <span className="flex flex-col items-center gap-5">
           <span
-            className="border-2 rounded-xl absolute w-full h-full"
+            className="flex items-center justify-center bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_0%,#C9A348_25%,#C7A147_50%,#CC9331_75%,#955E1E_100%)] w-20 h-20 rounded-lg font-bold text-4xl"
             style={{ transform: "rotate(45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute top-3/4 right-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute bottom-3/4 left-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span>{timeLeft.days}</span>
-          <span className="md:text-sm">Days</span>
+          >
+            <span className=" absolute bg-red-main w-16 h-16 rounded-lg"></span>
+            <span style={{ transform: "rotate(-45deg)" }}>{timeLeft.days}</span>
+          </span>
+          <span className="text-xl">Days</span>
         </span>
-        :
-        <span className="relative w-20 h-20 flex flex-col justify-center items-center">
+
+        <span className="flex flex-col items-center gap-5">
           <span
-            className="border-2 rounded-xl absolute w-full h-full"
+            className="flex items-center justify-center bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_0%,#C9A348_25%,#C7A147_50%,#CC9331_75%,#955E1E_100%)] w-20 h-20 rounded-lg font-bold text-4xl"
             style={{ transform: "rotate(45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute top-3/4 right-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute bottom-3/4 left-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span>{timeLeft.hours}</span>
-          <span className="md:text-sm">Hours</span>
+          >
+            <span className=" absolute bg-red-main w-16 h-16 rounded-lg"></span>
+            <span style={{ transform: "rotate(-45deg)" }}>
+              {timeLeft.hours}
+            </span>
+          </span>
+          <span className="text-xl">Hours</span>
         </span>
-        :
-        <span className="relative w-20 h-20 flex flex-col justify-center items-center">
+
+        {/* <span className="font-bold text-6xl border">:</span> */}
+
+        <span className="flex flex-col items-center gap-5">
           <span
-            className="border-2 rounded-xl absolute w-full h-full"
+            className="flex items-center justify-center bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_0%,#C9A348_25%,#C7A147_50%,#CC9331_75%,#955E1E_100%)] w-20 h-20 rounded-lg font-bold text-4xl"
             style={{ transform: "rotate(45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute top-3/4 right-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute bottom-3/4 left-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span>{timeLeft.minutes}</span>
-          <span className="md:text-sm">Min</span>
+          >
+            <span className=" absolute bg-red-main w-16 h-16 rounded-lg"></span>
+            <span style={{ transform: "rotate(-45deg)" }}>
+              {timeLeft.minutes}
+            </span>
+          </span>
+          <span className="text-xl">Minutes</span>
         </span>
-        :
-        <span className="relative w-20 h-20 flex flex-col justify-center items-center">
+
+        <span className="flex flex-col items-center gap-5">
           <span
-            className="border-2 rounded-xl absolute w-full h-full"
+            className="flex items-center justify-center bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_0%,#C9A348_25%,#C7A147_50%,#CC9331_75%,#955E1E_100%)] w-20 h-20 rounded-lg font-bold text-4xl"
             style={{ transform: "rotate(45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute top-3/4 right-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span
-            className="w-full border-t-2 bg-white absolute bottom-3/4 left-3/4"
-            style={{ transform: "rotate(-45deg)" }}
-          ></span>
-          <span>{timeLeft.seconds}</span>
-          <span className="md:text-sm">Sec</span>
+          >
+            <span className=" absolute bg-red-main w-16 h-16 rounded-lg"></span>
+            <span style={{ transform: "rotate(-45deg)" }}>
+              {timeLeft.seconds}
+            </span>
+          </span>
+          <span className="text-xl">Seconds</span>
         </span>
       </p>
-
-      {/* PRIZE POOL STAMP */}
-      <div className="w-full flex items-center justify-center">
-        <img src="/assets/Home/prize_pool.png" alt="prize pool stamp" />
-      </div>
     </div>
   );
 }

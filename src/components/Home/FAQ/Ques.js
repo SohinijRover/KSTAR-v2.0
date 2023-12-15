@@ -24,7 +24,7 @@ function Ques({ f }) {
               : "/assets/Home/minus_icon.png"
           }
           alt="add icon"
-          className="w-10"
+          className="w-10 cursor-pointer"
           onClick={() => (isHidden ? setIsHidden(false) : setIsHidden(true))}
         />
       </div>
