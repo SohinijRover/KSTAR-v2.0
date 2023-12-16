@@ -62,8 +62,8 @@ function RegistrationClosed() {
           </a>
         </div>
       </div>
-      <div className="w-full h-full flex pt-44">
-        <div className="border-r-2 w-1/2 h-80 flex flex-col gap-10 items-center justify-center">
+      <div className="w-full h-full flex items-center justify-between">
+        <div className="border-r-2 w-6/12 h-80 flex flex-col gap-10 items-center justify-center">
           <div className="font-bold text-white text-6xl">
             SUBMISSION NOT STARTED YET...
           </div>
@@ -72,9 +72,9 @@ function RegistrationClosed() {
             {timeLeft.days} Days : {timeLeft.hours} Hrs : {timeLeft.minutes} Min : {timeLeft.seconds} Sec
           </div>
         </div>
-        <div className="w-5/12">
+        <div className="w-5/12 pr-16 flex justify-center items-center">
           <img
-            src="/assets/Home/logo-main.png"
+            src="/assets/File2.png"
             alt="main logo"
             className="w-full"
           />
