@@ -1,23 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Acting() {
   return (
-    <div className="bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] w-full h-screen flex flex-col px-20 pt-10">
-      <div className="flex items-center justify-between">
+    <div className="bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] w-full h-screen flex flex-col px-20 pt-5">
+      <div className="flex justify-between">
         <img
           src="/assets/Challenges/main-logo.svg"
           alt="challenge logo"
           className="w-96"
         />
-        <div className="flex gap-10">
-          <span className="flex items-center gap-3 text-gold font-bold text-2xl">
+        <div className="flex items-start pt-5 gap-10">
+          <Link to="/" className="flex items-center gap-3 text-gold font-bold text-2xl">
             <img src="/assets/Challenges/home.svg" alt="home icon" />
             Home
-          </span>
-          <span className="flex items-center gap-3 text-gold font-bold text-2xl">
+          </Link>
+          <a className="flex items-center gap-3 text-gold font-bold text-2xl">
             <img src="/assets/Challenges/chat.svg" alt="chat icon" />
             Contact Us
-          </span>
+          </a>
         </div>
       </div>
 
