@@ -64,11 +64,11 @@ function Header() {
       </div>
       <header className="w-full flex items-center justify-between px-10 py-5">
         <div className="flex gap-10">
-          <a href="#">
+          <a href="https://kiit.ac.in/">
             <img src="/assets/Home/kiit_icon.svg" alt="KIIT" />
           </a>
-          <a href="#">
-            <img src="/assets/Home/ksac_icon.svg" alt="KSAC" />
+          <a href="https://ksac.kiit.ac.in/">
+            <img src="/assets/Home/ksac_icon.png" alt="KSAC" />
           </a>
         </div>
         <div className="flex items-center gap-10">

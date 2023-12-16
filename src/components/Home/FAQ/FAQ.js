@@ -11,7 +11,7 @@ function FAQ() {
     {
       id: 2,
       ques: "When will the registrations start?",
-      ans: "-> The registration of the event will start from 16th Dec 2023, 12PM.",
+      ans: "-> The registration of the event will start from 16th Dec 2023, 5PM.",
     },
     {
       id: 3,
@@ -40,8 +40,8 @@ function FAQ() {
     },
     {
       id: 8,
-      ques: "Will I get any confirmation mail after registration?",
-      ans: "-> Unfortunately, NO! However, for any official updates regarding the event, kindly follow @ksacofficial on Facebook, Instagram and Twitter.",
+      ques: "How to get updates about thhe event?",
+      ans: "-> For any official updates regarding the event, kindly follow @ksacofficial on Facebook, Instagram and Twitter.",
     },
     {
       id: 9,
