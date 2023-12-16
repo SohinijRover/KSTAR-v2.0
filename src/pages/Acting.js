@@ -11,7 +11,10 @@ function Acting() {
           className="w-96"
         />
         <div className="flex items-start pt-5 gap-10">
-          <Link to="/" className="flex items-center gap-3 text-gold font-bold text-2xl">
+          <Link
+            to="/"
+            className="flex items-center gap-3 text-gold font-bold text-2xl"
+          >
             <img src="/assets/Challenges/home.svg" alt="home icon" />
             Home
           </Link>
@@ -32,12 +35,12 @@ function Acting() {
             as the next Anurag Kashyap or Tarantino.
           </div>
           <div className="flex gap-10">
-            <a
-              href="#"
+            <Link
+              to="/registration-closed"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
             >
               Submit Here
-            </a>
+            </Link>
             <a
               href="#"
               className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
@@ -46,8 +49,12 @@ function Acting() {
             </a>
           </div>
         </div>
-        <div className="w-4/12 h-3/4">
-          <img src="/assets/Challenges/acting.svg" alt="acting" className="w-full" />
+        <div className="w-6/12 h-3/4">
+          <img
+            src="/assets/Challenges/acting.svg"
+            alt="acting"
+            className="w-full"
+          />
         </div>
       </div>
     </div>

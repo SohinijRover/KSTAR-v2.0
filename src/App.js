@@ -11,6 +11,7 @@ import Writing from "./pages/Writing";
 import Marketing from "./pages/Marketing";
 import ShortFilm from "./pages/ShortFilm";
 import Fashion from "./pages/Fashion";
+import RegistrationClosed from "./pages/RegistrationClosed";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/marketing" element={<Marketing />} />
           <Route path="/short-film" element={<ShortFilm />} />
           <Route path="/fashion" element={<Fashion />} />
+          <Route path="/registration-closed" element={<RegistrationClosed />} />
         </Routes>
       </div>
     </BrowserRouter>
