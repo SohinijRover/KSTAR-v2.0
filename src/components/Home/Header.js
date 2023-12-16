@@ -47,21 +47,21 @@ function Header() {
 
   return (
     <div
-      className="bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] h-screen w-full flex flex-col fixed top-0"
+      className="overflow-hidden bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] h-screen w-full flex flex-col fixed top-0"
       style={{ zIndex: "-1" }}
     >
-      <img
-        src="/assets/Frame.png"
-        alt="bg paricles"
-        className="absolute opacity-60"
-        style={{ zIndex: "-1" }}
-      />
-      <img
-        src="/assets/Frame.png"
-        alt="bg paricles"
-        className="absolute right-0 opacity-60"
-        style={{ zIndex: "-1" }}
-      />
+      <div className="w-full h-full flex absolute left-0 top-0" style={{ zIndex: "-1" }}>
+        <img
+          src="/assets/Frame.png"
+          alt="bg paricles"
+          className="w-1/2 opacity-60"
+        />
+        <img
+          src="/assets/Frame.png"
+          alt="bg paricles"
+          className="w-1/2 opacity-60"
+        />
+      </div>
       <header className="w-full flex items-center justify-between px-10 py-5">
         <div className="flex gap-10">
           <a href="#">
@@ -84,33 +84,29 @@ function Header() {
         </div>
       </header>
 
-      <div className="flex py-5 px-28">
+      <div className="flex py-5 mt-10 md:mt-0 xl:px-28">
         {/* KSTAR MAIN LOGO 3RD EDITION */}
         <div className="flex items-center justify-start">
-          <img
-            src="/assets/Home/logo-main.png"
-            alt="kstar main"
-            className="w-10/12"
-          />
+          <img src="/assets/Home/logo-main.png" alt="kstar main" className="2xl:w-8/12" />
         </div>
         {/* PRIZE POOL STAMP */}
-        <div className="w-1/2 flex items-center justify-start">
+        <div className="flex items-center justify-start w-1/2">
           <img
             src="/assets/Home/prize_pool.png"
             alt="prize pool stamp"
-            className="w-8/12"
+            className="w-3/4"
           />
         </div>
       </div>
 
       {/* DATE */}
-      <div className="w-full flex justify-center text-white font-bold mt-5 text-6xl">
+      <div className="w-full flex justify-center text-white font-bold mt-20 md:mt-10 lg:mt-5 text-4xl md:text-6xl lg:text-4xl 2xl:text-6xl">
         25<sup className="text-xl">th</sup>-27<sup className="text-xl">th</sup>
         DEC 2023
       </div>
 
-      {/* TIMER */}
-      <p className="flex items-center justify-center gap-20 mt-10 text-white">
+      {/* TIMER, gap-20, mt-10 */}
+      <p className="flex items-center justify-center gap-10 2xl:gap-20 mt-20 md:mt-16 lg:mt-10 text-white">
         <span className="flex flex-col items-center gap-5">
           <span
             className="flex items-center justify-center bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_0%,#C9A348_25%,#C7A147_50%,#CC9331_75%,#955E1E_100%)] w-20 h-20 rounded-lg font-bold text-4xl"

@@ -11,30 +11,32 @@ function Hero() {
     >
       {/* BG PARTICLES */}
       {/* <img
-        src="/assets/bg.svg"
+        src="/assets/Home/jeera.png"
         alt="bg particles"
-        className="absolute top-0 w-full"
+        className="absolute top-96 w-full"
       /> */}
 
       {/* TRANSITION IMAGE */}
-      <img
-        src="/assets/Home/hero_transition.svg"
-        alt="transition object"
-        className="w-full opacity-80 absolute -top-60"
-      />
+      <div className="w-full opacity-80 absolute left-0 -top-16 lg:-top-36 2xl:-top-60">
+        <img
+          src="/assets/Home/hero_transition.svg"
+          alt="transition object"
+          className="w-full"
+        />
+      </div>
 
       {/* CHALLENGES */}
-      <div className="w-full flex flex-col gap-20 mt-20">
+      <div className="w-full flex flex-col gap-5 -mt-32 xl:mt-0 2xl:mt-20 2xl:gap-20">
         {/* TITLE */}
         <div className="flex items-center justify-center">
           <img
             src="/assets/Home/challenge_title.png"
             alt="challenge title"
-            className="w-4/12"
+            className="2xl:w-4/12"
           />
         </div>
-        {/*  */}
-        <div className="pt-20">
+        {/* pt-20 */}
+        <div className="">
           <Challenges />
         </div>
         {/* REGISTER BUTTON */}
@@ -57,7 +59,11 @@ function Hero() {
         </div>
         {/* IMAGE */}
         <div>
-          <img src="/assets/Home/faq.svg" alt="faq side image" className="w-52" />
+          <img
+            src="/assets/Home/faq.svg"
+            alt="faq side image"
+            className="w-52"
+          />
         </div>
       </div>
     </div>
