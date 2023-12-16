@@ -15,7 +15,7 @@ function Acting() {
             <img src="/assets/Challenges/home.svg" alt="home icon" />
             Home
           </Link>
-          <a className="flex items-center gap-3 text-gold font-bold text-2xl">
+          <a className="flex items-center gap-3 text-gold font-bold text-2xl" href="mailto:studentsupport@kiit.ac.in?subject=Enquiry - KSTAR">
             <img src="/assets/Challenges/chat.svg" alt="chat icon" />
             Contact Us
           </a>
@@ -23,7 +23,7 @@ function Acting() {
       </div>
 
       <div className="h-full flex justify-between">
-        <div className="w-5/12 h-full flex flex-col justify-center gap-10">
+        <div className="w-6/12 h-full flex flex-col justify-center gap-10">
           <div className="text-gold font-bold text-6xl">ACTING</div>
           <div className="text-white font-bold text-2xl">
             Do you know the ideology behind the concept of short films “ALL TOO
@@ -46,7 +46,7 @@ function Acting() {
             </a>
           </div>
         </div>
-        <div className="w-6/12 h-3/4">
+        <div className="w-4/12 h-3/4">
           <img src="/assets/Challenges/acting.svg" alt="acting" className="w-full" />
         </div>
       </div>

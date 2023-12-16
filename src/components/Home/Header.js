@@ -78,7 +78,7 @@ function Header() {
           >
             Register Now!
           </a>
-          <a href="#">
+          <a href="mailto:studentsupport@kiit.ac.in?subject=Enquiry - KSTAR">
             <img src="/assets/Home/chat_icon.svg" alt="mailto" />
           </a>
         </div>
