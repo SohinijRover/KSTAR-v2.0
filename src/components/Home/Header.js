@@ -73,7 +73,7 @@ function Header() {
         </div>
         <div className="flex items-center gap-10">
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScUh1eePAPzlhJtfwsPHXaxYgz8r6EVbWvYKa3hSFBKffmiuw/viewform"
             className="font-bold text-red-main px-5 py-3 bg-white rounded-xl border-4 border-gold hover:text-white hover:bg-red-main text-xl"
           >
             Register Now!

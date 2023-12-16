@@ -40,7 +40,7 @@ function Hero() {
         {/* REGISTER BUTTON */}
         <div className="w-full flex items-center justify-center">
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScUh1eePAPzlhJtfwsPHXaxYgz8r6EVbWvYKa3hSFBKffmiuw/viewform"
             className="font-bold text-gold px-9 py-4 bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] rounded-xl border-4 border-gold  text-4xl"
           >
             Register Now!
