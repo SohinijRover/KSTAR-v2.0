@@ -22,25 +22,26 @@ function Snapshot() {
     </div>
   </div>
 
-  <div className="h-full flex justify-between">
+  <div className="h-full flex items-center justify-between">
     <div className="w-6/12 h-full flex flex-col justify-center gap-10">
       <div className="text-gold font-bold text-6xl">SNAPSHOT</div>
       <div className="text-white font-bold text-2xl">
       “Photography is the story everyone fails to put into words.” You and your camera precious moments that vanish before you even realise. Do you think you have what it takes to turn a fleeting moment into a precious memory?If yes then we have an astounding opportunity to showcase your talent and make others see the world through your lens.
             </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
     <div className="w-1/3 h-1/2">

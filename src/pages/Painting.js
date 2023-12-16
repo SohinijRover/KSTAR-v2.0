@@ -22,25 +22,26 @@ function Painting() {
     </div>
   </div>
 
-  <div className="h-full flex justify-between">
+  <div className="h-full flex items-center justify-between">
     <div className="w-6/12 h-full flex flex-col justify-center gap-10">
       <div className="text-gold font-bold text-6xl">PAINTING</div>
       <div className="text-white font-bold text-2xl">
       Art, if one must say, is a reflection of your beliefs, it is the expression of the way you perceive the world to be , a mere spitting image of your soul. There’s no such thing as a good painter but if your art makes people wonder about your perception of the world then you are indeed a commendable painter. So grab this opportunity as you grab that brush of yours and paint the canvas to showcase your unparalleled talent.
             </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
     <div className="w-1/3 h-1/2">

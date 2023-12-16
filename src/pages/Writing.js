@@ -29,21 +29,22 @@ function Writing() {
       In this world of abbreviations if your heart still flutters at the site of a novel that you are yet to discover, if the smell of new books brings you joy, if the taste of your coffee is incomplete without a book in your hand and if the sound of a shakespearean reference makes you smile, then you are at the right place.We through this challenge would like to encourage and embrace your talents, whether it’s a short story or poetry let your work blow your peers mind.
             </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
-    <div className="w-1/3 h-1/2">
+    <div className="w-4/12 h-1/2 pt-24">
       <img src="/assets/Challenges/writing.svg" alt="writing" className="w-full" />
     </div>
   </div>

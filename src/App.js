@@ -12,6 +12,7 @@ import Marketing from "./pages/Marketing";
 import ShortFilm from "./pages/ShortFilm";
 import Fashion from "./pages/Fashion";
 import RegistrationClosed from "./pages/RegistrationClosed";
+import ThemeGuidelines from "./pages/ThemeGuidelines";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/short-film" element={<ShortFilm />} />
           <Route path="/fashion" element={<Fashion />} />
           <Route path="/registration-closed" element={<RegistrationClosed />} />
+          <Route path="/theme" element={<ThemeGuidelines />} />
         </Routes>
       </div>
     </BrowserRouter>

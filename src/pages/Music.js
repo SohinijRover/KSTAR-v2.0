@@ -22,28 +22,29 @@ function Music() {
     </div>
   </div>
 
-  <div className="h-full flex justify-between">
+  <div className="h-full flex items-center justify-between">
     <div className="w-6/12 h-full flex flex-col justify-center gap-10">
       <div className="text-gold font-bold text-6xl">MUSIC</div>
       <div className="text-white font-bold text-2xl">
       “To play a wrong note is insignificant .To play without passion is inexcusable”-Beethovan If you are a musician and feel like the mundane routine has toned down your passion and love for music, then hold your fire no more.The stage is all set for you to mesmerize everyone with your euphonious voice. To be the best instrumentalist or vocalist among your peers. Let this wonderful event encourage you to sustain your passion , love and proclivity for music.
             </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
-    <div className="w-1/5 h-1/7">
+    <div className="w-1/5 h-1/7 pr-16">
       <img src="/assets/Challenges/music.svg" alt="music" className="w-full" />
     </div>
   </div>

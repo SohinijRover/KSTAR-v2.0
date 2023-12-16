@@ -29,18 +29,19 @@ function Design() {
       “Design creates culture.Culture creates values.Values determine the future.”-Robert .L.Peters It is in everything we make but also between those things.It is a mix of craft,science,storytelling,propaganda and philosophy.We hereby invite our fellow designers to paint the canvas of people’s imagination with their ethereal talent.
             </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
     <div className="w-1/3 h-1/2">

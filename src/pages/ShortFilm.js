@@ -29,21 +29,22 @@ function ShortFilm() {
       Do you know the ideology behind the concept of short films “ALL TOO WELL(taylor’s short film)”?Is“THE HUNT” of a good short film enough to bond “TWO DISTANT STRANGERS”.If you think so too and see yourself as the next Anurag Kashyap or Tarantino , then you my friend are at the right place.Kstar brings to the table a unique event that intends to discover and honour the very best and rising filmmakers among us.
             </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
-    <div className="w-1/3 h-1/2">
+    <div className="w-3/12 h-1/2 pt-24">
       <img src="/assets/Challenges/film.svg" alt="film" className="w-full" />
     </div>
   </div>

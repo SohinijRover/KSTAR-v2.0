@@ -21,28 +21,29 @@ function Dance() {
     </div>
   </div>
 
-  <div className="h-full flex justify-between">
+  <div className="h-full flex  items-center justify-between">
     <div className="w-6/12 h-full flex flex-col justify-center gap-10">
       <div className="text-gold font-bold text-6xl">DANCE</div>
       <div className="text-white font-bold text-2xl">
       “Why walk when you can dance?” We can't always choose the music that life plays for us but we can choose how we dance to it. The world is full of rhythms and beats if we listen closely. If you dance like you are the only one watching and feel the rhythm of the music in your soul as you dance to it, then this 72 hour challenge is all you need to showcase your talent.
       </div>
       <div className="flex gap-10">
-        <a
-          href="#"
-          className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-        >
-          Submit Here
-        </a>
-        <a
-          href="#"
-          className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-        >
-          Theme & Guidelines
-        </a>
+      <Link
+              to="/registration-closed"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+            >
+              Submit Here
+            </Link>
+            <Link
+            to="/theme"
+              href="#"
+              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
+            >
+              Theme & Guidelines
+            </Link>
       </div>
     </div>
-    <div className="w-1/4 h-1/2">
+    <div className="w-4/12 h-10/12 p-10">
       <img src="/assets/Challenges/dance.svg" alt="dancing" className="w-full" />
     </div>
   </div>
