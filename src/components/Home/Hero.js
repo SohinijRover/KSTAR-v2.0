@@ -61,7 +61,7 @@ function Hero() {
         <div>
           <img
             src="/assets/Home/faq.svg"
-            alt="faq side image"
+            alt="faq side"
             className="w-52"
           />
         </div>

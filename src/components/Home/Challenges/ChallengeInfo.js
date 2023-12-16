@@ -10,7 +10,7 @@ function ChallengeInfo({ challenge }) {
       <img src={challenge.img} alt="challenge icon" className="w-3/4" />
       <img
         src="/assets/Home/challenges/stand.png"
-        alt="stand image"
+        alt="stand"
         className="w-3/4"
       />
       {/* text-4xl */}

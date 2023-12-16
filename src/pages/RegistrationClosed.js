@@ -44,7 +44,7 @@ function RegistrationClosed() {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [timeLeft]);
+  });
   return (
     <div className="w-full h-screen flex flex-col items-center gap-5">
       <div className="flex w-full p-5 justify-end">
@@ -56,7 +56,7 @@ function RegistrationClosed() {
             <img src="/assets/Challenges/home.svg" alt="home icon" />
             Home
           </Link>
-          <a className="flex items-center gap-3 text-gold font-bold text-2xl">
+          <a href="mailto:studentsupport@kiit.ac.in?subject=Enquiry - KSTAR" className="flex items-center gap-3 text-gold font-bold text-2xl">
             <img src="/assets/Challenges/chat.svg" alt="chat icon" />
             Contact Us
           </a>

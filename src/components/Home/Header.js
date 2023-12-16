@@ -43,7 +43,7 @@ function Header() {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [timeLeft]);
+  });
 
   return (
     <div
