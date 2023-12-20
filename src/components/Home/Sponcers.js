@@ -3,7 +3,7 @@ import React from "react";
 function Sponcers() {
   return (
     <div className="px-16 py-20 flex flex-col gap-20">
-      <h1 className="text-white text-6xl font-bold">OUR SPONCERS</h1>
+      <h1 className="text-white text-6xl font-bold">OUR SPONSORS</h1>
       <div className="flex flex-wrap justify-center gap-24">
         <img
           src="/assets/Sponcers/sponcer1.svg"
