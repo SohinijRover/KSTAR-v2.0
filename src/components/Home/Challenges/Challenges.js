@@ -65,7 +65,7 @@ function Challenges() {
     },
   ]);
   return (
-    <div className="w-full flex items-center justify-evenly flex-wrap gap-10">
+    <div className="w-full flex items-center justify-evenly flex-wrap gap-5">
       {c.map((challenge, key) => (
         <ChallengeInfo key={key} challenge={challenge} />
       ))}

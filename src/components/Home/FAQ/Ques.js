@@ -3,8 +3,8 @@ import React, { useState } from "react";
 function Ques({ f }) {
   const [isHidden, setIsHidden] = useState(true);
   return (
-    <div className="flex gap-5 justify-between text-white text-3xl">
-      <div className="flex flex-col gap-5">
+    <div className="flex justify-between text-white text-xl">
+      <div className="flex flex-col gap-2 w-3/4">
         <div>{f.ques}</div>
         <div
           className={

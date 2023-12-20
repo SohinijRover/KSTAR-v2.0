@@ -55,7 +55,7 @@ function FAQ() {
     },
   ]);
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-5">
       {faq.map((f, key) => (
         <Ques key={key} f={f} />
       ))}

@@ -5,7 +5,7 @@ function ChallengeInfo({ challenge }) {
   return (
     <Link
       to={challenge.path}
-      className="w-3/12 flex flex-col items-center gap-2"
+      className="w-3/12 flex flex-col items-center gap-1"
     >
       <img src={challenge.img} alt="challenge icon" className="w-3/4" />
       <img
@@ -14,7 +14,7 @@ function ChallengeInfo({ challenge }) {
         className="w-3/4"
       />
       {/* text-4xl */}
-      <h1 className="text-white font-bold text-center text-2xl">
+      <h1 className="text-white font-bold text-center text-xl">
         {challenge.title}
       </h1>
     </Link>

@@ -8,17 +8,11 @@ function Hero() {
   return (
     <div
       className="w-full h-fit relative pt-96"
-      style={{ marginTop: "100svh" }}
+      style={{ marginTop: "100vh" }}
     >
-      {/* BG PARTICLES */}
-      {/* <img
-        src="/assets/Home/jeera.png"
-        alt="bg particles"
-        className="absolute top-96 w-full"
-      /> */}
 
       {/* TRANSITION IMAGE */}
-      <div className="w-full opacity-80 absolute left-0 -top-16 lg:-top-36 2xl:-top-60">
+      <div className="w-full opacity-80 absolute left-0 -top-12 sm:-top-20 lg:-top-40 2xl:-mt-32">
         <img
           src="/assets/Home/hero_transition.svg"
           alt="transition object"
@@ -27,17 +21,15 @@ function Hero() {
       </div>
 
       {/* CHALLENGES */}
-      <div className="w-full flex flex-col gap-5 -mt-32 xl:mt-0 2xl:mt-20 2xl:gap-20">
+      <div className="w-full flex flex-col gap-5 md:gap-10 -mt-72 sm:-mt-60 md:-mt-36 lg:-mt-16">
         {/* TITLE */}
         <div className="flex items-center justify-center">
           <img
             src="/assets/Home/challenge_title.png"
             alt="challenge title"
-            className="2xl:w-4/12"
           />
         </div>
-        {/* pt-20 */}
-        <div className="">
+        <div>
           <Challenges />
         </div>
         {/* REGISTER BUTTON */}
@@ -56,12 +48,12 @@ function Hero() {
       {/* FAQ */}
       <div className="w-full flex justify-between items-center py-10 pl-16">
         {/* MAIN */}
-        <div className="flex flex-col gap-20 w-10/12">
+        <div className="flex flex-col gap-10 w-10/12">
           <h1 className="text-white font-bold text-6xl">FAQ</h1>
           <FAQ />
         </div>
         {/* IMAGE */}
-        <div>
+        <div className="hidden 2xl:block">
           <img
             src="/assets/Home/faq.svg"
             alt="faq side"
