@@ -2,6 +2,7 @@ import React from "react";
 
 import Challenges from "./Challenges/Challenges";
 import FAQ from "./FAQ/FAQ";
+import Sponcers from "./Sponcers";
 
 function Hero() {
   return (
@@ -49,6 +50,8 @@ function Hero() {
           </a>
         </div>
       </div>
+
+      <Sponcers />
 
       {/* FAQ */}
       <div className="w-full flex justify-between items-center py-10 pl-16">
