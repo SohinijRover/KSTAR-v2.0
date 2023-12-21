@@ -103,6 +103,7 @@ function Header() {
       <div className="flex flex-col md:flex-row mt-10 w-full">
         {/* KSTAR MAIN LOGO 3RD EDITION */}
         <div className="flex items-center justify-start">
+          {/* <img src="/assets/Home/logo-main.png" alt="kstar main" className="2xl:w-10/12" /> */}
           <img src="/assets/Home/logo-main.png" alt="kstar main" className="2xl:w-10/12" />
         </div>
         {/* PRIZE POOL STAMP */}

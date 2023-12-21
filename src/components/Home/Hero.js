@@ -21,7 +21,7 @@ function Hero() {
       </div>
 
       {/* CHALLENGES */}
-      <div className="w-full flex flex-col gap-5 md:gap-10 -mt-72 sm:-mt-60 md:-mt-36 lg:-mt-16">
+      <div className="w-full flex flex-col gap-5 md:gap-10 -mt-72 sm:-mt-60 md:-mt-36 lg:-mt-16 2xl:mt-10">
         {/* TITLE */}
         <div className="flex items-center justify-center">
           <img
@@ -36,7 +36,7 @@ function Hero() {
         <div className="w-full flex items-center justify-center">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScUh1eePAPzlhJtfwsPHXaxYgz8r6EVbWvYKa3hSFBKffmiuw/viewform"
-            className="font-bold text-gold px-9 py-4 bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] rounded-xl border-4 border-gold  text-4xl"
+            className="font-bold text-gold hover:text-red-main px-9 py-4 bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] hover:bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_20%,#F6DF76_40%,#C7A147_60%,#CC9331_80%,#955E1E_100%)] rounded-xl border-4 border-gold  text-4xl"
           >
             Register Now!
           </a>
