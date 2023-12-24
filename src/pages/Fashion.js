@@ -42,19 +42,16 @@ function Fashion() {
             your elegance.
           </div>
           <div className="flex gap-10">
-            <Link
-              to="/registration-closed"
+          <a href="https://forms.gle/AtLFbAM22F1VzP4q6"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-              to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/16CrA4KLaP-yQRWHWG1jLLsxCtzwz3uyF/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
           </div>
         </div>
         <div className="w-1/4 h-1/2">

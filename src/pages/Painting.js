@@ -29,19 +29,16 @@ function Painting() {
       Art, if one must say, is a reflection of your beliefs, it is the expression of the way you perceive the world to be , a mere spitting image of your soul. There’s no such thing as a good painter but if your art makes people wonder about your perception of the world then you are indeed a commendable painter. So grab this opportunity as you grab that brush of yours and paint the canvas to showcase your unparalleled talent.
             </div>
       <div className="flex gap-10">
-      <Link
-              to="/registration-closed"
+      <a href="https://forms.gle/SLAfnS7Pz5ThDaAL8"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-            to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1hf4mHeN743Z11IClugdV77zMBw-LmFFF/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
       </div>
     </div>
     <div className="w-1/3 h-1/2">

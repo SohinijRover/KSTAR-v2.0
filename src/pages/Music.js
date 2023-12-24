@@ -29,19 +29,16 @@ function Music() {
       “To play a wrong note is insignificant .To play without passion is inexcusable”-Beethovan If you are a musician and feel like the mundane routine has toned down your passion and love for music, then hold your fire no more.The stage is all set for you to mesmerize everyone with your euphonious voice. To be the best instrumentalist or vocalist among your peers. Let this wonderful event encourage you to sustain your passion , love and proclivity for music.
             </div>
       <div className="flex gap-10">
-      <Link
-              to="/registration-closed"
+      <a href="https://forms.gle/vXbdUriYkmxKgj1w5"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-            to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1_q0zPk4927WVNQ2lDClQtKntAvZuAHDw/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
       </div>
     </div>
     <div className="w-1/5 h-1/7 pr-16">

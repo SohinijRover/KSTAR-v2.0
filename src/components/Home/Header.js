@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   const calculateTimeLeft = () => {
@@ -84,12 +85,12 @@ function Header() {
           </a>
         </div>
         <div className="flex items-center gap-5 md:gap-10">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScUh1eePAPzlhJtfwsPHXaxYgz8r6EVbWvYKa3hSFBKffmiuw/viewform"
+          {/* <Link
+          href="#Hero" passHref
             className="font-bold text-red-main px-2 py-1 md:py-3 md:px-2 bg-white rounded-xl border-4 border-gold hover:text-white hover:bg-red-main text-sm md:text-xl"
           >
-            Register Now!
-          </a>
+            Submit Now!
+          </Link> */}
           <a href="mailto:studentsupport@kiit.ac.in?subject=Enquiry - KSTAR">
             <img
               src="/assets/Home/chat_icon.svg"
@@ -123,7 +124,7 @@ function Header() {
       </div>
 
       {/* TIMER */}
-      <p className="flex items-center justify-center text-white gap-7 md:gap-16 xl:gap-24 mt-10 md:mt-20 2xl:mt-10">
+      {/* <p className="flex items-center justify-center text-white gap-7 md:gap-16 xl:gap-24 mt-10 md:mt-20 2xl:mt-10">
         <span className="flex flex-col items-center gap-2 2xl:gap-5">
           <span
             className="flex items-center justify-center bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_0%,#C9A348_25%,#C7A147_50%,#CC9331_75%,#955E1E_100%)] w-16 h-16 2xl:w-20 2xl:h-20 2xl:text-3xl rounded-lg font-bold text-2xl"
@@ -173,7 +174,7 @@ function Header() {
           </span>
           <span className="text-xl">Seconds</span>
         </span>
-      </p>
+      </p> */}
     </div>
   );
 }

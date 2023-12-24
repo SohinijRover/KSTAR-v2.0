@@ -29,19 +29,16 @@ function Writing() {
       In this world of abbreviations if your heart still flutters at the site of a novel that you are yet to discover, if the smell of new books brings you joy, if the taste of your coffee is incomplete without a book in your hand and if the sound of a shakespearean reference makes you smile, then you are at the right place.We through this challenge would like to encourage and embrace your talents, whether it’s a short story or poetry let your work blow your peers mind.
             </div>
       <div className="flex gap-10">
-      <Link
-              to="/registration-closed"
+      <a href="https://forms.gle/h7Nxq2mdRJ4gMsXM9"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-            to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1o__0txD-ofWjeswIIWvNtsmm8MnMYWWf/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
       </div>
     </div>
     <div className="w-4/12 h-1/2 pt-24">

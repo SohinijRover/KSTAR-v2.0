@@ -42,19 +42,16 @@ function Acting() {
             out the actor in you and exhibit your talent in acting.
           </div>
           <div className="flex gap-10">
-            <Link
-              to="/registration-closed"
+          <a href="https://forms.gle/xW7mwgTh1Bvkcot88"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-            to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1-V07b0ZFeow53fOugadS1IbtVnGHIfuZ/view?usp=sharing"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
           </div>
         </div>
         <div className="w-5/12 h-3/4">

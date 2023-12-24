@@ -6,6 +6,7 @@ import Sponcers from "./Sponcers";
 
 function Hero() {
   return (
+    <section id="hero">
     <div
       className="w-full h-fit relative pt-96"
       style={{ marginTop: "100vh" }}
@@ -33,14 +34,14 @@ function Hero() {
           <Challenges />
         </div>
         {/* REGISTER BUTTON */}
-        <div className="w-full flex items-center justify-center">
+        {/* <div className="w-full flex items-center justify-center">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScUh1eePAPzlhJtfwsPHXaxYgz8r6EVbWvYKa3hSFBKffmiuw/viewform"
             className="font-bold text-gold hover:text-red-main px-9 py-4 bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#AC1D39_0%,#3A130E_100%)] hover:bg-[radial-gradient(169.40%_89.55%_at_94.76%_6.29%,#C9A348_20%,#F6DF76_40%,#C7A147_60%,#CC9331_80%,#955E1E_100%)] rounded-xl border-4 border-gold  text-4xl"
           >
             Register Now!
           </a>
-        </div>
+        </div> */}
       </div>
 
       <Sponcers />
@@ -62,6 +63,7 @@ function Hero() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

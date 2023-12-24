@@ -40,19 +40,16 @@ function Design() {
             imagination with their ethereal talent.
           </div>
           <div className="flex gap-10">
-            <Link
-              to="/registration-closed"
+            <a href="https://forms.gle/3YL9S86yaHBzHyAT7"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-              to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1VcKGdSzt2tqj8Oo7fP9pXouUtj_xDxW_/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
           </div>
         </div>
         <div className="w-1/3 h-1/2">

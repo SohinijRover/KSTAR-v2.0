@@ -35,19 +35,16 @@ function Marketing() {
           Marketing orchestrates narratives that resonate with audiences, shaping the cultural landscape. A fusion of strategy, creativity, and persuasion, it blends the artistry of storytelling, the precision of science, and the influence of philosophy. We call upon fellow marketers to wield their visionary prowess in crafting compelling tales that transcend boundaries and captivate the collective imagination.
           </div>
           <div className="flex gap-10">
-          <Link
-              to="/registration-closed"
+          <a href="https://forms.gle/iQeZWc1LoSz15hxe7"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-            to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1n2OpYYCOWTJoBy5KQ_jAu5vJvE7kzmoN/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
           </div>
         </div>
         <div className="w-4/12 h-1/2 pt-24">

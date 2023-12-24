@@ -21,29 +21,26 @@ function Dance() {
     </div>
   </div>
 
-  <div className="h-full flex  items-center justify-between">
+  <div className="h-full flex justify-between">
     <div className="w-6/12 h-full flex flex-col justify-center gap-10">
       <div className="text-gold font-bold text-6xl">DANCE</div>
       <div className="text-white font-bold text-2xl">
       “Why walk when you can dance?” We can't always choose the music that life plays for us but we can choose how we dance to it. The world is full of rhythms and beats if we listen closely. If you dance like you are the only one watching and feel the rhythm of the music in your soul as you dance to it, then this 72 hour challenge is all you need to showcase your talent.
       </div>
       <div className="flex gap-10">
-      <Link
-              to="/registration-closed"
+      <a href="https://forms.gle/vXbdUriYkmxKgj1w5"
               className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
-            >
+              target="_blank" rel="noreferrer">
               Submit Here
-            </Link>
-            <Link
-            to="/theme"
-              href="#"
-              className="bg-white text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-white hover:bg-inherit hover:text-white"
-            >
+            </a>
+            <a href="https://drive.google.com/file/d/1j7kJW1ij4Meqoox3F7sideIlTQrZPZSO/view?usp=drive_link"
+              className="bg-gold text-red-main font-bold text-2xl px-7 py-4 rounded-lg cursor-pointer border-2 border-gold hover:bg-inherit hover:text-gold"
+              target="_blank" rel="noreferrer">
               Theme & Guidelines
-            </Link>
+            </a>
       </div>
     </div>
-    <div className="w-4/12 h-10/12 p-10">
+    <div className="w-1/4">
       <img src="/assets/Challenges/dance.svg" alt="dancing" className="w-full" />
     </div>
   </div>
