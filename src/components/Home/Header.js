@@ -73,14 +73,14 @@ function Header() {
             <img
               src="/assets/Home/kiit_icon.svg"
               alt="KIIT"
-              className="w-12 md:w-20"
+              className="w-10 md:w-20"
             />
           </a>
           <a href="https://ksac.kiit.ac.in/">
             <img
               src="/assets/Home/ksac_icon.png"
               alt="KSAC"
-              className="w-12 md:w-20"
+              className="w-10 md:w-20 "
             />
           </a>
         </div>
@@ -95,7 +95,7 @@ function Header() {
             <img
               src="/assets/Home/chat_icon.svg"
               alt="mailto"
-              className="w-12"
+              className="w-10 md:w-20"
             />
           </a>
         </div>
@@ -112,7 +112,7 @@ function Header() {
           <img
             src="/assets/Home/prize_pool.png"
             alt="prize pool stamp"
-            className="w-44 xl:w-80 2xl:w-72"
+            className="w-44 xs:w-25 md:w-30 xl:w-80 2xl:w-72 sm:w-30 pt-5"
           />
         </div>
       </div>
